@@ -1,10 +1,13 @@
 package com.practice.hibernate;
 
+import java.util.Date;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import com.practice.hibernate.model.Employee;
+import com.practice.hibernate.model.UserDetails;
 import com.practice.hibernate.util.HibernateUtil;
 
 public class CreateData {
